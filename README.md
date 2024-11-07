@@ -39,8 +39,9 @@ The `linux-bash-file-management` suite enables users to move files based on a sp
 3. **Run the move script**:
 
    ```bash
-./move_files.sh -i /path/to/input_folder -o /path/to/output_folder -s minimum_size [-d]
+   ./move_files.sh -i /path/to/input_folder -o /path/to/output_folder -s minimum_size [-d]
    ```
+
 - `-i` or `--input`: Input folder containing files to be moved.
 - `-o` or `--output`: Output folder where files will be moved.
 - `-s` or `--size`: Minimum file size in bytes (positive integer).
